@@ -1,0 +1,124 @@
+/*
+========================================================================
+PLUGINS
+========================================================================
+*/
+
+div.plugin_box {
+    margin: 20px;
+    overflow: inherit;
+}
+
+div.plugin_box	div.plugin_internal {
+    width: 90%;
+    margin: 0 auto;
+}
+
+div.plugin_box ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+    text-align: center;
+    width: auto;
+}
+
+div.plugin_box	li {
+	display: block;
+	word-wrap: break-word;
+    
+	white-space: nowrap;
+	padding: 2px 0;
+    
+    width: auto;
+    text-align: center;    
+}
+
+div.plugin_box	li>a {  
+    display: block;
+    width: auto;
+    line-height: 1.4em;
+    
+    border-bottom: 1px solid #111;
+    border-radius: 7px;
+    
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -ms-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+}
+
+div.plugin_box	li>a:hover {
+	color: #fff;
+    
+    border-radius: 3px;
+    
+    border-bottom: 1px solid #3fa9f5;
+    background: #c4dff2;
+    
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -ms-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+    
+    
+}
+
+div.plugin_box	h3.plugin_title {
+    font-family: 'Forum', cursive;
+    color: #eee; 
+    background: #111;
+    
+    width: auto;
+    line-height: 1.8em;
+    margin: 10px auto;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: center;
+}
+
+div.plugin_box img {
+	max-width: 100%;
+    text-align: center;
+}
+
+/*
+========================================================================
+PLUGINS :: Last posts
+========================================================================
+*/
+
+div.plugin_last_posts {
+
+}
+
+div.plugin_last_posts	li {
+	border-bottom: 1px solid #333;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+/*
+========================================================================
+PLUGINS :: About
+========================================================================
+*/
+
+div.plugin_about {
+
+}
+
+div.plugin_about	li.name {
+	font-weight: bold;
+	font-size: 1em;
+}
+
+div.plugin_about	li.about {
+	font-size: 1em;
+}
+
+div.plugin_about	li.image {
+	float: left;
+	overflow: auto;
+}
